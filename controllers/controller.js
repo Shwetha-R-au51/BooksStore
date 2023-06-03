@@ -123,7 +123,7 @@ export const DeleteBooks = async(req,res)=>{
     catch (err) {
         res.status(500).json({
           success: false,
-          message: "failed to delete",
+          message: "failed to search",
         });
     }
   }
